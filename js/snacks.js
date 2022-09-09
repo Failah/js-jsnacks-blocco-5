@@ -68,14 +68,14 @@ console.log(teams);
  * che hanno la posizione compresa tra i due numeri.
  */
 
-
+// METODO VALERIO
 const a = 5;
 
 const b = 16;
 
 let array = [];
 
-GenerateNumberInterval(array, a, b);
+array = GenerateNumberInterval(array, a, b);
 
 console.log(array);
 
@@ -86,16 +86,15 @@ function GenerateNumberInterval(numbers, a, b) {
 
     numbers = [];
 
-    for (i; i < range; i++) {
+    for (i; i <= range; i++) {
         numbers.push(a + i);
     }
-
-    console.log(numbers);
 
     return numbers;
 }
 
 
+// METODO PIETRO
 /*
 let a = 10;
 
