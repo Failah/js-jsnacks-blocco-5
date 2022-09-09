@@ -82,6 +82,8 @@ console.log(array);
 function GenerateNumberInterval(numbers, a, b) {
     let range = b - a - 1;
 
+    range = Math.abs(range);
+
     let i = 0;
 
     numbers = [];
